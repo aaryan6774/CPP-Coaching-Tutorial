@@ -109,3 +109,36 @@ int main()
     
 }
 */
+
+// Question 8
+#include <iostream>
+using namespace std;
+int main()
+{
+    float length, breadth;
+    cout<<"Enter Length: "<<endl;
+    cin>>length;
+    cout<<"Enter breadth: "<<endl;
+    cin>>breadth;
+    float area = length*breadth;
+    float peremeter = 2*(length+breadth);
+    if (length != breadth)
+    {
+        cout<<"It is a rectangle."<<endl;
+        cout<<"Area of rectangle = "<<area<<endl;
+        cout<<"Peremeter of rectangle = "<<peremeter<<endl;
+        if (area > peremeter)
+        {
+            cout<<"area > peremeter"<<endl;
+        }
+        else{
+            cout<<"peremeter > area"<<endl;
+        }
+    }
+    else{
+        cout<<"It is a Square."<<endl;
+    }
+    
+
+
+}
