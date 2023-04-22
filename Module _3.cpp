@@ -1,5 +1,5 @@
 // question 1;
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     float C, F;
@@ -21,10 +21,10 @@ int main(){
     }
 
 }
-*/
+
 
 // Question 4
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -43,10 +43,10 @@ int main()
     }
 
 }
-*/
+
 
 // Question 7 Part 1
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -83,10 +83,10 @@ int main()
         cout << "Invalid Operation" << endl;
     }
 }
-*/
+
 
 // Question 7 Part 2
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -108,7 +108,7 @@ int main()
     }
     
 }
-*/
+
 
 // Question 8
 #include <iostream>
