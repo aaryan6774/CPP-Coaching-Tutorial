@@ -93,3 +93,68 @@ int main()
     cout<<"Thanks"<<endl;
 }
 
+// For, While and Do-while loop in C++
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    /* Loops in C++
+    There are 3 types of loops in C++
+    1. For Loop
+    2. While Loop
+    3. do-while Loop*/
+    /* For Loop in C++*/
+    /*cout << 1 << endl;
+    cout << 2 << endl;
+    // Like this we can print till 100.
+    int i = 1;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++;
+    cout << i;
+    i++; */
+    // Again this not an optimal way to code
+
+
+
+
+
+    /* 
+    Syntax for "for - loop"
+    for(initialization; condition;,updation)
+    {
+        loop body(c++ code);
+    }
+    for loop in C++
+    */
+    for (int i = 0; i < 4; i++)
+    {
+        cout<<i<<endl;
+    }
+    // for(int i = 1; 34<=40; i++) // infinite loop
+    // {
+    //     cout<<i<<endl;
+    // }    
+}
+
+
