@@ -156,5 +156,37 @@ int main()
     //     cout<<i<<endl;
     // }    
 }
+//                                    While Loop In C++
+// Syntax
+// while (/* condition */)
+// {
+//     /* code */
+// }
+
+// Printing 1 to 40 using while loop
+/*#include <iostream>
+using namespace std;
+int main()
+{
+    int i = 1;
+    while (i <= 40)
+    {
+        cout << i << endl;
+        i++;
+    }
+}
+*/
+// Example for Infinite While loop
+#include<iostream>
+using namespace std;
+int main(){
+    int i = 1;
+    while (true)
+    {
+        cout<<i<<endl;
+        i++;
+    }
+    
+}
 
 
